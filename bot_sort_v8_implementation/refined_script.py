@@ -29,7 +29,7 @@ def predict_trajectory(track, future_steps=30):
 
 def main():
     # Load standard pre-trained YOLOv8 model
-    model = YOLO('yolov8n.pt')
+    model = YOLO('yolov8m.pt')
 
     # ==========================================
     #             YOUTUBE LIVE STREAM

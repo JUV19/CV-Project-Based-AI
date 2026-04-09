@@ -64,7 +64,7 @@ def main():
         # Run YOLO tracking on the current frame
         # stream=False is idiomatic for frame-by-frame loops in Ultralytics.
         # Use a standard tracker like 'botsort.yaml' or 'bytetrack.yaml' for best results.
-        results = model.track(frame, persist=True, tracker=r"c:\Users\MVMaas\.antigravity\bot_sort_v8_implementation\tester.yaml", conf=0.15,verbose=False)
+        results = model.track(frame, persist=True, tracker="tester.yaml", conf=0.15,verbose=False)
 
         # There is only one frame passed, so we access results[0]
         r = results[0]
